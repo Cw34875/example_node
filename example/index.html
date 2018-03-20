@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- always put your name in your work -->
+    <meta name="author" content="Robert C. Duvall">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- libraries neded for this page -->
+    <script src="https://unpkg.com/vue"></script>
+    <!-- support for this page -->
+    <link rel="stylesheet" href="css/vue_example.css">
+    <script src="js/vue_example.js" async></script>
+    <title>Vue Example</title>
+</head>
+
+<body>
+    <div id="app">
+        <h2>Hello {{ name }}!</h2>
+        <p><button @click="reverseName">Reverse Name</button></p>
+        <p><input v-model="name"></p>
+        <p>{{ length }}</p>
+        <p v-if="showStatus">{{ status }}</p>
+    </div>
+</body>
+</html>

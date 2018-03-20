@@ -1,0 +1,11 @@
+{
+  "name": "example_node",
+  "description": "Simple node and Vue examples",
+  "version": "1.0.0",
+  "author": "Robert Duvall <rcd@cs.duke.edu>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mime-types": "^2.1.18"
+  }
+}

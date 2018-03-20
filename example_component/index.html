@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- always put your name in your work -->
+    <meta name="author" content="Robert C. Duvall">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- libraries neded for this page -->
+    <script src="https://unpkg.com/vue"></script>
+    <!-- support for this page -->
+    <link rel="stylesheet" href="css/vue_example.css">
+    <!-- NOTE JS IS LOADED AS A MODULE to use new "import" feature -->
+    <script type="module" src="js/app.js" async></script>
+    <title>Vue Example</title>
+</head>
+<body>
+    <div id="app">
+        <single-file-component greeting="Hello">
+            <!-- this is your custom component, it is used just like an HTML tag! -->
+            <!-- value ot greeting attribute is passed as a parameter to component -->
+        </single-file-component>
+    </div>
+</body>
+</html>
